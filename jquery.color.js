@@ -35,7 +35,7 @@
 			re: /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,
 			parse: function( execResult ) {
 				return [
-					execResult[ LK ],
+					execResult[ 1 ],
 					execResult[ 2 ],
 					execResult[ 3 ],
 					execResult[ 4 ]
